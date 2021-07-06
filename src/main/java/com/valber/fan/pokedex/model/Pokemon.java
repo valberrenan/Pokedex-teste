@@ -1,7 +1,9 @@
 package com.valber.fan.pokedex.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document
 public class Pokemon {
 
     @Id
